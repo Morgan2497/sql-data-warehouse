@@ -22,22 +22,11 @@ SET row_security = off;
 --
 -- Name: bronze; Type: SCHEMA; Schema: -; Owner: -
 --
-
-CREATE SCHEMA bronze;
-
-
---
--- Name: gold; Type: SCHEMA; Schema: -; Owner: -
---
-
-CREATE SCHEMA gold;
-
-
---
--- Name: silver; Type: SCHEMA; Schema: -; Owner: -
---
-
-CREATE SCHEMA silver;
+CREATE SCHEMA IF NOT EXISTS bronze;
+-- ...
+CREATE SCHEMA IF NOT EXISTS gold;
+-- ...
+CREATE SCHEMA IF NOT EXISTS silver;
 
 
 --
